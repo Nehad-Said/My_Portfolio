@@ -1,0 +1,376 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  
+}
+#right{
+  margin-top:8px;
+}
+div.first {
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 0 71px;
+  align-items: center;
+  background-image:url("../images/background icons.jpeg");
+}
+/* for small screens phone */
+@media only screen and (max-width:767px) {
+  div.first {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 0 71px;
+    align-items: center;
+    background-image:url("../images/background icons.jpeg");
+    font-size: 14px;}
+    div #right{
+      text-align: center;
+      margin-bottom: 0px;
+  }
+  div .services_options{
+    display: flex;
+    flex-direction: column;
+  }
+  div#all_services_parent .container {
+    flex-direction: column;
+  }
+  div#all_services_parent {
+    padding: none;
+}
+.portofolio > .container .box {
+  width: 100%;
+}
+.portofolio .container{
+  flex-direction: column;
+}
+div#info-contact {
+  flex-direction: column;
+}
+div#info h2, div#contact h2 {
+  margin-top: 22px;
+}
+}
+
+  /* for medium devices tablet */
+@media only screen and (min-width:1024px){
+  
+}
+.main-text{
+  color:#ffb400 ;
+}
+div.first div#left {
+  flex: 1;
+}
+
+div.first div#left div#left-heading {
+  margin-bottom: 25px;
+}
+
+div.first div#left div#left-details {
+  margin-bottom: 30px;
+}
+
+div#left h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+div#left-actions button {
+  background-color: orange;
+  padding: 10px 12px;
+  border: none;
+  vertical-align: middle;
+}
+div#left-actions button:hover{
+  cursor: pointer;
+  background-color: coral;
+}
+
+#info_services{
+width:400px;
+margin:auto;
+text-align: center;
+}
+#info_services h3{
+margin-bottom:15px;
+font-size:32px;
+}
+#info_services p{
+font-size:15px;
+color:#777;
+line-height:1.7;
+margin-bottom:37px;
+}
+
+#info_portofolio{
+width:400px;
+margin:auto;
+text-align: center;
+}
+#info_portofolio h3{
+margin-bottom:15px;
+font-size:32px;
+}
+#info_portofolio p{
+font-size:15px;
+color:#777;
+line-height:1.7;
+margin-bottom:37px;
+}
+
+
+div#info_services #first_align{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 123.6%;
+}
+div#info_services #second_align{
+  text-align: center;
+}
+
+div#all_services_parent {
+  padding:69px 70px;
+  
+}
+div#all_services_parent .container{
+display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  row-gap:20px;
+}
+div.services_options {
+  padding: 30px;
+  background-color: #FFFFFF;
+  text-align: center;
+  flex-basis:calc((100% / 3) - 13.3px);
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.services_options:not(:last-of-type) h2{
+margin-bottom:15px;
+margin-top:21px;
+}
+
+div.services_options:last-of-type a{
+text-decoration: none;
+color:#ffb400;
+font-weight:700;
+}
+
+div.services_options:last-of-type p{
+margin-bottom:15px;
+margin-top:21px;
+}
+
+div.all_services div.services_options div.option_img {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+div.all_services div.services_options div.option_img figure {
+  margin: 0;
+  padding: 0;
+  width: 65.88px;
+  height: 53.12px;
+}
+
+div.all_services div.services_options div.option_img figure img {
+  width: 100%;
+  height: 100%;
+}
+
+div#info_portfolio #info_port1{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
+}
+
+div#info_portfolio #info_port2{
+  text-align: center;
+}
+
+div#main {
+  padding: 5%
+}
+
+div#info-contact {
+  display: flex;
+  padding:69px 75px;
+}
+
+div#info-contact .your_info {
+  background-color: white;
+  padding:25px;
+}
+
+div#info-contact #info {
+  margin-right: 25px;
+  flex-basis: 70%;
+}
+
+div#info h2,
+div#contact h2{
+  margin-bottom:50px;
+  font-size:32px;
+  white-space: nowrap;
+}
+
+div#info div.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px
+}
+
+#contact .location{
+  height: calc(100% - 88.5px);
+  display: flex;
+  flex-direction: column;
+  row-gap:18px;
+}
+
+#contact .location::before{
+content:"";
+width:100%;
+height:100%;
+position: absolute;
+}
+
+div#info div.input-field label {
+  font-weight: 500;
+  font-size: 18px;
+  color:#777;
+}
+
+div#info div.input-field input{
+  padding:20px 15px;
+  background: #F0F0F6;
+  border: none;
+  outline:none;
+}
+
+div#info div.input-field textarea{
+  width: 100%;
+  height: 150px;
+  background: #F0F0F6;
+  outline:None;
+  border:none;
+}
+
+div#info-contact #info button {
+  background-color: orange;
+  outline: 0;
+  border: none;
+  font-size: 1.1rem;
+  padding: 7px 16px;
+}
+
+div#info-contact #info button:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+
+div.contact-item {
+  background-color: white;
+  padding: 25px;
+  flex:1;
+}
+
+div.contact-item div.image {
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+div.contact-item div.image img {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 9px;
+}
+div.contact-item div.content > div span{
+  color:#777;
+}
+div.contact-item div.content > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+div.contact-item div.content > div a {
+  color: #777;
+  text-decoration:none;
+}
+.portofolio{
+  padding:69px 70px;
+  
+}
+.portofolio .container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  row-gap:20px;
+}
+.portofolio > .container .box{
+flex-basis:calc((100% / 3) - 13.3px);
+position: relative;
+overflow: hidden;
+}
+.portofolio > .container .box::before{
+  content:"+";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:rgba(255, 180, 0, 0.95);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:53px;
+  font-weight:600;
+  cursor: pointer;
+  left:0;
+  top:100%;
+  transition:0.2s linear top;
+}
+
+.portofolio > .container .box:hover::before{
+  top:0;
+}
+
+.portofolio .container .box  img{
+  width:100%;
+  height:100%;
+}
+.trade{
+  text-align:center;
+  padding-left:70px;
+  padding-right:95px;
+  padding-bottom:40px;
+}
+.trade img{
+  width:100%;
+}
+footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  background-color: white;
+  font-size:15px;
+  font-weight: 400;
+  color:#2B2B2B;
+}
